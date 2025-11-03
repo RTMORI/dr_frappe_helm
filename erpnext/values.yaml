@@ -405,9 +405,9 @@ redis-cache:
     enabled: false
     sentinel: false
   image:
-    registry: 10.212.154.85
+    registry: 10.192.212.9
     repository: dr_jute/bitnami-redis
-    tag: "7.0.12"
+    tag: "1.0.0"
     pullPolicy: IfNotPresent  
   master:
     containerPorts:
@@ -424,9 +424,9 @@ redis-queue:
     enabled: false
     sentinel: false
   image:
-    registry: 10.212.154.85
+    registry: 10.192.212.9
     repository: dr_jute/bitnami-redis
-    tag: "7.0.12"
+    tag: "1.0.0"
     pullPolicy: IfNotPresent
   master:
     containerPorts:
